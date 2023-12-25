@@ -137,7 +137,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -462,7 +462,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
-        InlineKeyboardButton("sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+        InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥ʟ", callback_data=f"sendfiles#{key}")
     ])
     # else:
@@ -1277,7 +1277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("", url="telegram.me/Filmy_Men")
+                 InlineKeyboardButton("", url="telegram.me/Owner_0143")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -2051,7 +2051,7 @@ async def auto_filter(client, msg, spoll=False):
     #         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
     #     ])
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
     # if ENABLE_TUTORIAL == True:
