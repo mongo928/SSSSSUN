@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6311929182:AAE_8R8WTJjiqAOzkCyjip2z6x1L7xx
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/10ce98d4446e117df4932.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-VRFIED_IMG = environ.get("VRFIED_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
-VRFY_IMG = environ.get("VRFY_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/ac8ae4c76ed7091c7d0d8.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/ac8ae4c76ed7091c7d0d8.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/ac8ae4c76ed7091c7d0d8.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/ac8ae4c76ed7091c7d0d8.jpg")
+VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/ac8ae4c76ed7091c7d0d8.jpg")
+VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/ac8ae4c76ed7091c7d0d8.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5272400279 1277771711').split()]
@@ -51,8 +51,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c2511cd6b07f69fedce6caddc48cf6cf10a56dfa')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
@@ -61,7 +61,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Trype0143')
 SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/myfilmyduniya0143')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/myfilmyduniya0143')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/myfilmyduniya0143')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/BackupChannel0143/17')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/myfilmyduniya0143')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
