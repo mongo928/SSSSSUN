@@ -50,7 +50,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "KOYEB")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
