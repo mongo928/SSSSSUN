@@ -138,7 +138,7 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
             InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
         ])
     else:
         btn = []
@@ -463,7 +463,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
         InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
+        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
     ])
     # else:
     #     btn.insert(0, [
@@ -2052,7 +2052,7 @@ async def auto_filter(client, msg, spoll=False):
     #     ])
         btn.insert(0, [
             InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
         ])
     # if ENABLE_TUTORIAL == True:
     #     btn.insert(0, [
