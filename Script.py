@@ -191,7 +191,6 @@ Eg:
 Don't either write word movie, quality nor language.
 
     NORSLTS = """
-★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 
 𝗜𝗗 <b>: {}</b>
 
@@ -199,7 +198,7 @@ Don't either write word movie, quality nor language.
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href="https://t.me/thewarriorsreal">{file_nmae}</a></b>"""
+    CAPTION = """<b><a href="https://t.me/thewarriorsreal">{file_name}</a></b>"""
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
