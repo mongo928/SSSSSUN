@@ -2042,17 +2042,17 @@ async def auto_filter(client, msg, spoll=False):
     # if ENABLE_SHORTLINK == True:
     #     btn.insert(0, [
     #         InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-    #         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
+    #         InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", url=await get_shortlink(message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
     #         )
     #     ])
     # else:
     #     btn.insert(0, [
     #         InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-    #         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
+    #         InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
     #     ])
         btn.insert(0, [
-            InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
+            InlineKeyboardButton("ᗷᗩᑕKᑌᑭ", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
+            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
         ])
     # if ENABLE_TUTORIAL == True:
     #     btn.insert(0, [
