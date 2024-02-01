@@ -188,14 +188,14 @@ Eg:
 2. Avengers Infinity War 
 (✅Correct Way to request)
 
-Don't either write word movie, quality nor language.
+Don't either write word movie, quality nor language."""
 
     NORSLTS = """
-
+★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 𝗜𝗗 <b>: {}</b>
 
 𝗡𝗮𝗺𝗲 <b>: {}</b>
-
+ 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b><a href="https://t.me/thewarriorsreal">{file_name}</a></b>"""
