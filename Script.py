@@ -174,7 +174,7 @@ Don't either write word movie, quality nor language."""
  
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href="https://t.me/thewarriorsreal">{file_name}</a></b>"""
+    CAPTION = """<b><a href="https://t.me/thewarriorsreal">{file_caption}</a></b>"""
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
