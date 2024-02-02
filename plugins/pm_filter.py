@@ -2129,7 +2129,7 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.') and not x.startswith('tg') and not x.startswith('telegram'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>Hᴇʀᴇ Aʀᴇ Lɪsᴛ Oғ Fɪʟᴇs {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ  {message.from_user.mention}\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {message.chat.title} \n\n</b>"
+            cap = f"<b>Hᴇʀᴇ Aʀᴇ Lɪsᴛ Oғ Fɪʟᴇs For {search}\n\n{message.from_user.mention}\n\n</b>"
         else:
             # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ Aʀᴇ Lɪsᴛ Oғ Fɪʟᴇs {search} \n\n</b>"
             cap = f"<b>Hᴇʏ {message.from_user.mention}, Fᴏᴜɴᴅ {total_results} Hᴇʀᴇ Aʀᴇ Lɪsᴛ Oғ Fɪʟᴇs {search}\n\n</b>"
