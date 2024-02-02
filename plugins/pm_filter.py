@@ -1776,11 +1776,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "chnl_info":
             btn = [[
-                    InlineKeyboardButton("↼ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ ⇀", url= GRP_LNK)
+                    InlineKeyboardButton("↼ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ ⇀", url="https://t.me/thewarriorsreal")
                 ],[
-                    InlineKeyboardButton("↼ ʙᴏᴛ ᴄʜᴀɴɴᴇʟ ⇀", url=SPRT_CHNL)
+                    InlineKeyboardButton("↼ ʙᴏᴛ ᴄʜᴀɴɴᴇʟ ⇀", url="https://t.me/+qSjnsXLUV3k0ODg1")
                 ],[
-                    InlineKeyboardButton("↼  Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ⇀", url=CHNL_LNK)
+                    InlineKeyboardButton("↼  Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ⇀", url="https://t.me/defenderofthemultiverse")
                 ],[
                     InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
                     InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1826,7 +1826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Owner_0143")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/ANKIT3690")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1955,7 +1955,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             btn = [[
-                    InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
+                    InlineKeyboardButton(f"Searching  🔍  for {search}", url="https://t.me/+qSjnsXLUV3k0ODg1")
                     ]]
             dlt = await message.reply_sticker('CAACAgIAAxkBAAI8RWV6iqzZfSvygDT8lA-F9NpimdYZAAKrAQACEBptIni-vpHMVGzHHgQ', reply_markup=InlineKeyboardMarkup(btn))
             search = search.lower()
@@ -2051,7 +2051,7 @@ async def auto_filter(client, msg, spoll=False):
     #         InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
     #     ])
         btn.insert(0, [
-            InlineKeyboardButton("ᗷᗩᑕKᑌᑭ", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
+            InlineKeyboardButton("ᗷᗩᑕKᑌᑭ", url=f"https://t.me/+qSjnsXLUV3k0ODg1"),
             InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
         ])
     # if ENABLE_TUTORIAL == True:
